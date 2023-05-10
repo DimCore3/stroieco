@@ -1,0 +1,30 @@
+.main_logo {
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+
+    img {
+        width: 40px;
+        height: 40px;
+        margin: 0 6px;
+    }
+
+    span {
+        font-size: 28px;
+        color: var(--font-dark-blue);
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+            sans-serif;
+        margin: 0 6px;
+        strong {
+            font-weight: 600;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main_logo {
+        span {
+            display: none;
+        }
+    }
+}

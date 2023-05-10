@@ -1,0 +1,18 @@
+@mixin flex_center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .social_media_external_links {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .social_media_external_links {
+        width: min-content;
+        @include flex_center;
+    }
+}

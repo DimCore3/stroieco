@@ -1,0 +1,22 @@
+.main_header {
+    box-shadow: 3px 5px 10px rgb(196, 196, 196);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+    .main_header {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .main_header {
+        position: absolute;
+        left: 15%;
+        width: 70%;
+    }
+}
+
