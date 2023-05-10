@@ -1,9 +1,9 @@
 .main_header {
     box-shadow: 3px 5px 10px rgb(196, 196, 196);
-    height: 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 25px 30px;
 }
 
 @media screen and (max-width: 800px) {

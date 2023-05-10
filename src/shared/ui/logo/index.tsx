@@ -4,7 +4,7 @@ const Logo = () => {
     return ( 
         <div className={classes.main_logo}>
             <img src={require('./assets/stroieco_logo.svg').default} alt="" />
-            <span><strong>СТРОЙ</strong>ЭКОЛОГИЯ</span>
+            <p><strong>СТРОЙ</strong>ЭКОЛОГИЯ</p>
         </div>
      );
 }

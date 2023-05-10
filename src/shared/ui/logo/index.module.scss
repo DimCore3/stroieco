@@ -6,15 +6,12 @@
     img {
         width: 40px;
         height: 40px;
-        margin: 0 6px;
     }
 
-    span {
+    p {
         font-size: 28px;
         color: var(--font-dark-blue);
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
-            sans-serif;
-        margin: 0 6px;
+        margin: 0 10px;
         strong {
             font-weight: 600;
         }
@@ -23,7 +20,7 @@
 
 @media screen and (max-width: 400px) {
     .main_logo {
-        span {
+        p {
             display: none;
         }
     }
