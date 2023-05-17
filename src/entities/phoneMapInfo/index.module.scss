@@ -1,6 +1,33 @@
 .phone_map_info {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+
     img {
         width: 20px;
         height: 20px;
+        margin-right: 10px;
+    }
+    .data {
+        p,
+        a {
+            color: var(--dark-grey);
+            font-size: 14px;
+            line-height: 19px;
+            font-weight: 600;
+            text-decoration: none;
+            font-family: var(--main-font);
+        }
+    };
+    .action {
+        p {
+            font-size: 12px;
+            line-height: 16px;
+            color: var(--font-dark-blue);
+            font-family: var(--main-font);
+            font-weight: 600;
+            text-decoration: underline dotted;
+            cursor: pointer;
+        }
     }
 }
