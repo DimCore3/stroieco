@@ -1,0 +1,22 @@
+.header_menu_button {
+    display: flex;
+    justify-content: center;
+    width: 24px;
+    height: 20px;
+    border-top: 2px var(--dark-grey) solid;
+    border-bottom: 2px var(--dark-grey) solid;
+    border-radius: 4px;
+    transition: border-radius 1s;
+    cursor: pointer;
+
+    div {
+        height: 9px;
+        width: 90%;
+        border-bottom: 2px var(--dark-grey) solid;
+    }
+}
+
+.header_menu_button:hover {
+    border-radius: 14px;
+    transition: border-radius 1s;
+}

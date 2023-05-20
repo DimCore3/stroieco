@@ -6,19 +6,11 @@
     .logo_text {
         padding: 0 15px;
         border-left: 1px solid var(--light-grey);
-        height: 100%;
         color: var(--light-grey);
         font-size: 12px;
         line-height: 16px;
         text-transform: uppercase;
         font-family: var(--main-font);
-    }
-}
-
-@media screen and (min-width: 799px){
-    .logo_text {
-        display: flex;
-        align-items: center;
     }
 }
 

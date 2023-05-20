@@ -1,12 +1,16 @@
 header {
     box-shadow: 3px 5px 10px rgb(196, 196, 196);
     padding: 25px 30px;
-    
+
     .header_upper {
         display: flex;
         align-items: center;
         justify-content: space-between;
         height: 40px;
+
+        .phone_map_info_header {
+            display: flex;
+        }
     }
 }
 
@@ -18,17 +22,29 @@ header {
     animation: openMenuContant 0.2s ease-out;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 650px) {
+    .phone_map_info_header {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
     .header {
         width: 100%;
     }
 }
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 901px) {
     header {
         position: absolute;
         left: 10%;
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .max_width_1100_display_none {
+        display: none !important;
     }
 }
 
@@ -38,5 +54,5 @@ header {
     }
     100% {
         height: 300px;
-    } 
+    }
 }

@@ -2,7 +2,11 @@ import { Icon } from "./ui";
 import { DataLink } from './model';
 import './index.scss';
 
-const SocialMediaExternalLinks = () => {
+type Props = {
+    addClasses?: string,
+}
+
+const SocialMediaExternalLinks = ({addClasses = ''}: Props) => {
 
     const links: DataLink[] = [
         { img: 'facebook', href: 'https://facebook.com', alt: 'Facebook external link' },
@@ -12,7 +16,7 @@ const SocialMediaExternalLinks = () => {
     ];
 
     return (
-        <div className="social_media_external_links">
+        <div className={`social_media_external_links ${addClasses}`}>
             {links.map((element, index) => (
                 <Icon 
                     href={element.href} 
