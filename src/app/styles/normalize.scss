@@ -6,3 +6,12 @@ p, h1, h2, h3, h4, h5, h6 {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
     sans-serif;
 }
+
+.pages_root {
+	height: calc(100% - 90px);
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	background-color: var(--background-color-main);
+}

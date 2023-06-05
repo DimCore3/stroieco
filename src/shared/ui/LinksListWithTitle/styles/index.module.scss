@@ -1,0 +1,24 @@
+.links_list_with_title {
+    min-width: 30%;
+
+    h2 {
+        line-height: 2rem;
+        height: 30px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .links_list_in_header {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        .link {
+            line-height: 2rem;
+            text-decoration: none;
+            color: black;
+            max-width: 80%;
+        }
+        .link:hover {
+            background-color: rgba($color: #000000, $alpha: 0.1);
+        }
+    }
+}

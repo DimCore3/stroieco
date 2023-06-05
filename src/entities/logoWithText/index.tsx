@@ -1,4 +1,4 @@
-import Logo from 'shared/ui/logo';
+import Logo from 'shared/ui/Logo';
 import classes from './index.module.scss';
 
 const LogoWithText = () => {

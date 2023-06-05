@@ -1,4 +1,4 @@
-import PhoneMapInfo from "entities/phoneMapInfo";
+import PhoneMapInfo from "entities/PhoneMapInfo";
 
 type Props = {
     data:string
